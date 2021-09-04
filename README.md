@@ -5,7 +5,7 @@
 3- To run integration tests from the console run the following maven command : <br/>
 NOT : Execute maven command from where the pom.xml is located in the project directory. <br/>
 <pre> 
-$ mvn clean install -X -P integration-test -Dspring.profiles.active=test <br/>
+$ mvn clean install -X -P integration-test "-Dspring.profiles.active=test" <br/>
 </pre>
 4- failsafe-reports can be accessed from the application directory : "target/failsafe-reports" <br/>
 
