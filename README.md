@@ -9,6 +9,8 @@ $ mvn clean install -X -P integration-test -Dspring.profiles.active=test <br/>
 </pre>
 4- failsafe-reports can be accessed from the application directory : "target/failsafe-reports" <br/>
 
+![maven_failsafe_plugin](doc/maven-fail-safe.png) <br/>
+
 ### Tech Stack
 Java 11 <br/>
 H2 Database Engine <br/>
