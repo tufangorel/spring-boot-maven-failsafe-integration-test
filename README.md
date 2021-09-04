@@ -2,13 +2,12 @@
 
 1- Purpose : Create a new maven profile named "integration-test" to execute integration tests separately from standard maven build process. <br/>
 2- Reason : Integration tests are slow and takes longer time to complete when compared to unit tests. <br/>
-3- To run integration tests from console run the following maven command :
+3- To run integration tests from console run the following maven command : <br/>
 NOT : Execute maven command from where the pom.xml is located in the project directory. <br/>
 <pre> 
 $ mvn clean install -X -P integration-test -Dspring.profiles.active=test <br/>
 </pre>
-4- failsafe-reports can be accessed from the application directory : "target/failsafe-reports" <br/><br/>
-<br/>
+4- failsafe-reports can be accessed from the application directory : "target/failsafe-reports" <br/>
 
 ### Tech Stack
 Java 11 <br/>
